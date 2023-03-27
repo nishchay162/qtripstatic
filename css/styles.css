@@ -42,33 +42,34 @@ footer {
   padding: 20px 0px;
   /* display: flex; */
   /* flex-wrap: wrap; */
+  
 }
 
 /* ================================== */
 /* Layout page CSS */
 /* ================================== */
 
-.tile {
-  /* TODO: MODULE_CARDS */
-  /* 1. Fill in the required properties. */
-}
+  .tile {
+   /* TODO: MODULE_CARDS 
+   1. Fill in the required properties.  */
+  
+} 
 .tile img {
-  /* TODO: MODULE_CARDS */
-  /* 1. Fill in the required properties. */
-}
-.tile img:hover {
-  /* TODO: MODULE_CARDS */
-  /* 1. Fill in the required properties. */
-}
 
-/* Hint: Notice the position:absolute and z-index properties. */
-/* Think about how those in relation to the existing "tile" classes. */
-.tile-text {
-  position: absolute;
-  z-index: 1;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+
+   /* TODO: MODULE_CARDS 
+   1. Fill in the required properties.  */
+ }
+.tile img:hover {
+   /* TODO: MODULE_CARDS  */
+
 }
+/* 
+ Hint: Notice the position:absolute and z-index properties. 
+Think about how those in relation to the existing "tile" classes.  */
+.tile-text {
+
+} 
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -78,11 +79,17 @@ footer {
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
   /* 2. Position and center the image to scale nicely on all screens. */
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 }
 
 .hero-subheading {
-  font-size: 24px;
-  font-weight: 100;
+  font-size:24px;
+  font-weight:100;
 }
 .hero-input {
   width: 80%;
@@ -91,6 +98,7 @@ footer {
   border-radius: 8px;
   border: none;
 }
+
 
 .nav-link {
   margin-right: 36px;
