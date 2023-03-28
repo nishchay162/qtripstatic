@@ -52,22 +52,45 @@ footer {
   .tile {
    /* TODO: MODULE_CARDS 
    1. Fill in the required properties.  */
-  
+  width: 200px;
+  height: 230px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all.2s;
 } 
 .tile img {
 
 
    /* TODO: MODULE_CARDS 
    1. Fill in the required properties.  */
+   width: 200px;
+   height: 230px;
+   position: relative;
+   border-radius: 10px;
+   transition: all.2s;
+   
  }
 .tile img:hover {
    /* TODO: MODULE_CARDS  */
+   transform: scale(1.2);
+   filter: brightness(50%);
 
 }
 /* 
  Hint: Notice the position:absolute and z-index properties. 
 Think about how those in relation to the existing "tile" classes.  */
 .tile-text {
+  position:absolute;
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  bottom: 0;
+  right: 0;
+  left:0;
+  text-align: center;
+  border: 0px solid white;
+
 
 } 
 
