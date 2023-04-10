@@ -134,14 +134,27 @@ Think about how those in relation to the existing "tile" classes.  */
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height:300px;
+  border-radius:4px;
+  position: relative;
+  transition: all 0.2s;
+  overflow: hidden;
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height:75%;
+  width:100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius:4px;
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  
+   filter: brightness(50%);
+
 }
 
 /* ================================== */
@@ -165,6 +178,7 @@ Think about how those in relation to the existing "tile" classes.  */
 .experience-content ul li {
   margin-left: 16px;
   padding: 0;
+  
 }
 
 @media only screen and (min-width: 768px) {
