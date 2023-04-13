@@ -12,21 +12,88 @@
 <body>
    <!-- TODO: MODULE_ADVENTURE_DETAILS -->
    <!-- 1. Copy navigation bar HTML from Landing page document -->
-
+<nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div>
+        <a class="navbar-brand" href="#">QTrip</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-end w-100">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      
+      </div>
+    </nav>
+   </nav> 
 
   
   <div class="container">
    <div class="content">
      <!-- TODO: MODULE_ADVENTURES_GRID -->
      <!-- 1. Create the grid of adventures by adding child elements as required. -->
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="adventure-detail-card p-3 mb-3">
+              <div class="row">
+                <div class="col-lg-8">
+                  <img src="/assets/adventures/resort/resort1.jpg" class="adventure-card-image"/>
+                </div> 
+                <div class="col-lg-4">
+                  <div>
+                  <img src="/assets/adventures/resort/resort2.jpg" class="adventure-card-image mb-3 d-none d-lg-block"/>
+                </div>
+                <div>
+                    <img src="/assets/adventures/resort/resort3.jpg" class="adventure-card-image d-none d-lg-block"/>
+               </div>
+              </div>  
+            </div>
+          </div>
+             <div>
+                <h1 class="mt-3">Sunshine Resort</h1>
+                <h4 style="color:lightgreen"> Relax And Unwind Yourself</h4>
+              </div>
+              <hr>
+              <div>
+                <h4> About the experience</h4>
+                <p>Chairman's jade resort is constructed in the most natural setting for the day out that pleases the senses.The property is spread over eight acresof land with facilities for both indoor outdoor adventures
+                  get active in the pool with game of water polo or try some archery.For the indoor sort there are host of popular games and adventures.If that is entycing enough head to the gymnesium.
+                </p>
+                <h4>inclusion</h4>
+                <ul>
+                  <li>Swimming pool access</li>
+                  <li>Outdoor sports-water polo,archery,tennis and zorbing</li>
+                  <li>Indoor games-indoor squash,table tennis,badmitton,carrom</li>
+                  <li>parking</li>
+                </ul>
+                </div>
+                </div>
+              </div>  
+            <div class="col-lg-4">
+              <div class="adventure-detail-card p-2" id="reservation">
+              <h4 class="mt-3">sold out!</h4>
+              <hr>
+              <p>This adventure is currently sold out. But Ther's a lot more to <a href="/pages/adventures/index.html"></a><span style="color:orange">explore</span></p>
+            </div>
+            </div>
+            </div>
+          
         
-    
-
-   </div>
+    </div>
  </div>
 
-      </div>
-   </div>
+      
+   
    <footer>
       <div class="container">© QTrip 2020</div>
    </footer>
